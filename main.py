@@ -1,41 +1,50 @@
-# print - bu dastur natijasini ko'rsatadi
-# print(5+5)
-# print("Hello world")
-# str -String - bu yozuvli malumot turi
-# print("Python dasturlash tili")
-# int - Integer -bu sonli malumot turi
-# print(8*9)
-# print(8+15)
-# print("Salom "+'dunyo')
-# print(5+'Python') - ikki xil turdagi malumotni qoshib bolmaydi
-# * + - / ** // %
-# print(5**3) - ** darajani ifodalaydi
-# print(5//3)  - // butun bo'lish
-# print(5%3) - % qoldiqli bo'lish
-# a='Behzod'
-# b=10
-# print(a)
-# a=b=c=0
+# Uyga vazifa yechimi
+# age=int(input("Yoshingizni kiriting: "))
+# print(2022-age)
+# a=['Salom','Dunyo',"Python"]
+# index
+# kompyuter 0 dan sanashni boshlaydi
+# print(a[1])
+# len() - list uzunligini hisoblaydi
+# print(len(a))
+# arr=["behzod",'python']
+# print(arr)
 
-# a,b,c=1,2,3
-# print(a,b,c)
-# Functions Methods Objects
-# print()
-# print(type('Python'))
-# print(type(5))
-# print('BEHZOD'.lower())
-# a=10
-# b='10'
-# # b=int(b)
-# a=str(a)
-# print(type(a),type(b))
-# a=input("Ismingizni kiriting: ")
-# print("Salom ",a)
+# arr.append("Hello") append(obj) list oxiriga element qo'shadi
+# arr.insert(1,"Uch") insert(i,obj) index tartibi bilan element qo'shadi
+# arr.remove("Bir") remove(obj) element o'chirish
+# arr.pop(1) pop(i) index bo'yicha o'chiradi
+# arr.clear() barcha elementni o'chiradi
+# arr.sort() alfavit bo'yicha tartiblaydi
+# arr.reverse() teskari tarzda tartiblash
+# print(arr[0].title())
+# arr2=arr.copy() copy() nusxa olish
+# text="Men O'zbekistonda yashayman"
+# split - bu textni list ko'rinishga o'tkazadi
+# print(text.split(" "))
+# a=['Python','dasturlash','tili']
+# text=" ".join(a) join listdan textga o'tishga yordam beradi
+# print(text)
+#Mashq
+# fio=str(input("Ism va familyangizni kiriting: "))
+# text=fio.split(" ")
+# print(text[0],text[1])
 
-# Foydalanuvchi yoshi kiritiladi uni qachon tug’ilgan ekanligini
-# ko’rsatuchi dastur tayyorlash.
-
-
-
-
-
+# Mantiqiy amallar 2 ta qiymat qabul qiladi.
+# 1.Rost -> True, 1
+# 2.Yolg'on -> False,0
+# print(5>6)
+# print(5<6)
+# < kichik
+# > katta
+# <= kichik yoki teng
+# >= katta yoki teng
+# != teng emas
+# if strukturasi
+# 1 If -> Shart -> Blok
+# if 5>4:
+#     print('Ok')
+# else:
+#     print("Yes")
+# Maktab o’qish yoki o’qimasligi haqida malumot.
+    
